@@ -62,5 +62,6 @@ public class Aula04Operadores {
         System.out.println(++contador2); //Primeiro Inclementa e depois executa
 
 
+
     }
 }
