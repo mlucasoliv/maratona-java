@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java;
+package academy.devdojo.maratona.java.Aulas05;
 //Quanto tenho de pagar de taxa na hollanda, de acordo com meu salário anual. (Baseada em 2020)
 public class Aula05EstruturasCondicionais04 {
     public static void main(String[] args) {

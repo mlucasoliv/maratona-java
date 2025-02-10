@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java;
+package academy.devdojo.maratona.java.Aulas05;
 
 public class Aula05EstruturasCondicionais03 { //Operador Ternário
     public static void main(String[] args) {
