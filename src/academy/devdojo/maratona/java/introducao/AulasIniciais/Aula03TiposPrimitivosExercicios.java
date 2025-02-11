@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.java.AulasIniciais;
+package academy.devdojo.maratona.java.introducao.AulasIniciais;
 
     /* Crie variáveis para os campos descritos abaixo entre <> e imprima a seguinte mensagem:
 
