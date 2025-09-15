@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.javacore.Gassosiacao.dominio;
+package academy.devdojo.maratona.javacore.Heranca.dominio;
 
 public class Endereco {
     private String rua;
@@ -7,6 +7,10 @@ public class Endereco {
     public Endereco(String rua, String cep){
         this.rua = rua;
         this.cep = cep;
+    }
+
+    public Endereco() {
+
     }
 
     public String getRua() {
