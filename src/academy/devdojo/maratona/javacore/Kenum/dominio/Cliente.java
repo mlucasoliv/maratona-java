@@ -8,6 +8,7 @@ public class Cliente {
     public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;
+        this.tipoPagamento = tipoPagamento;
     }
 
     @Override
@@ -15,6 +16,8 @@ public class Cliente {
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", tipoCliente=" + tipoCliente +
+                ", tipoClienteInt=" + tipoCliente.getValor()+
+                ", tipoCliente=" + tipoCliente.getNomeRelatorio() +
                 ", tipoPagamento=" + tipoPagamento +
                 '}';
     }
