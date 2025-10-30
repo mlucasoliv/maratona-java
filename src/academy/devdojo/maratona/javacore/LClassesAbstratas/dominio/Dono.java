@@ -5,4 +5,9 @@ public class Dono extends Funcionario {
         super(nome, salario);
         this.cargo = "Owner";
     }
+
+    @Override
+    public void calculaBonus() {
+        this.salario += this.salario * 0.25;
+    }
 }

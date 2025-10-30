@@ -10,8 +10,11 @@ public class FuncionarioTeste01 {
         Dono dono = new Dono("Jin-woo", 7000);
         Desenvolvedor desenvolvedor = new Desenvolvedor("Ranma", 3500);
 
+        gerente.imprime();
         System.out.println(gerente);
+        dono.imprime();
         System.out.println(dono);
+        desenvolvedor.imprime();
         System.out.println(desenvolvedor);
     }
 }

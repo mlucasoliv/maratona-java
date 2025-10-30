@@ -5,4 +5,9 @@ public class Gerente extends Funcionario {
         super(nome, salario);
         this.cargo = "Gerente";
     }
+
+    @Override
+    public void calculaBonus() {
+        this.salario += this.salario * 0.15;
+    }
 }
